@@ -6,10 +6,10 @@ This Python3 script searches a .docx file for 'PLACEHOLDER' and replaces it with
 🚨 Currently, the job title (PLACEHOLDER) needs to be on its own line 🚨
 
 ## SETUP
-
-1) Create a 'dist' folder in this project directory.
-2) In the dist directory, create a copy of your .docx resume and name it 'placeholder_resume.docx'
-3) Replace the job title in placeholder_resume.docx with 'PLACEHOLDER' (no quotes)
+1) pip install python-docx
+2) Create a 'dist' folder in this project directory.
+3) In the dist directory, create a copy of your .docx resume and name it 'placeholder_resume.docx'
+4) Replace the job title in placeholder_resume.docx with 'PLACEHOLDER' (no quotes)
 
 A succesful setup should look like this
 ```
