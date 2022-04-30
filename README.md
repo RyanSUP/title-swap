@@ -10,11 +10,13 @@ This Python3 script searches a .docx file for 'PLACEHOLDER' and replaces it with
 3) Replace the job title in placeholder_resume.docx with 'PLACEHOLDER' (no quotes)
 
 A succesful setup should look like this
+```
 -- /dist
-  -- placeholder_resume.docx
+ -- placeholder_resume.docx
 -- /resumes
 -- app.py
 -- README.md
+```
 
 ## Running the script
 
@@ -26,7 +28,8 @@ Example:
     python3 app.py 'Frontend Engineer' Ryan_M_Resume
 
 This will create a Ryan_M_Resume.docx file where PLACEHOLDER is replaced with 'Frontend Engineer'. The file is saved in the resumes directory, packaged in a directory with the same name as the job title.
-
--- /resumes
-  -- /Frontend_Engineer
-    -- Ryan_M_Resume.docx
+```
+  -- /resumes
+    -- /Frontend_Engineer
+      -- Ryan_M_Resume.docx
+```
