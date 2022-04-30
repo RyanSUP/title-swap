@@ -3,6 +3,8 @@ The goal of this project was to streamline the resume editing process for those 
 
 This Python3 script searches a .docx file for 'PLACEHOLDER' and replaces it with the provided job title and neatly stores the new document for future use.
 
+🚨 Currently, the job title (PLACEHOLDER) needs to be on its own line 🚨
+
 ## SETUP
 
 1) Create a 'dist' folder in this project directory.
