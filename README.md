@@ -1,7 +1,7 @@
 # Title Swap
-The goal of this project was to streamline the resume editing process for those darn ATS robots.
+The goal of this project was to streamline the resume editing process to combat those darned ATS robots.
 
-This Python3 script searches a .docx file for 'PLACEHOLDER' and replaces it with the provided job title and neatly stores the new document for future use.
+This Python3 script searches a .docx file for 'PLACEHOLDER', replaces it with the provided job title and neatly stores the new document for future use.
 
 🚨 Currently, the job title (PLACEHOLDER) needs to be on its own line 🚨
 
